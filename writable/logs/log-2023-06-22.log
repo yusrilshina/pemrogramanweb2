@@ -1,0 +1,183 @@
+ERROR - 2023-06-22 03:32:51 --> ErrorException: SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buk...')
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buk...')
+#3 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#4 C:\xampp\htdocs\pw13\app\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#5 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplik...', '979-731-075-2', '211', '102', '2004', 'R45')
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->restore()
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#8 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 03:32:51 --> SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku', 'C:\\xampp\\htdocs\\pw13\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 5 APPPATH\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 6 APPPATH\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB', '979-731-075-2', '211', '102', '2004', 'R45')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->restore()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 03:32:55 --> ErrorException: SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buk...')
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buk...')
+#3 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#4 C:\xampp\htdocs\pw13\app\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#5 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplik...', '979-731-075-2', '211', '102', '2004', 'R45')
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->restore()
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#8 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 03:32:55 --> SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku', 'C:\\xampp\\htdocs\\pw13\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 5 APPPATH\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 6 APPPATH\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB', '979-731-075-2', '211', '102', '2004', 'R45')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->restore()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 03:32:55 --> ErrorException: SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buk...')
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buk...')
+#3 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#4 C:\xampp\htdocs\pw13\app\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#5 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplik...', '979-731-075-2', '211', '102', '2004', 'R45')
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->restore()
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#8 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 03:32:55 --> SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku', 'C:\\xampp\\htdocs\\pw13\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 5 APPPATH\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 6 APPPATH\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB', '979-731-075-2', '211', '102', '2004', 'R45')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->restore()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 03:39:34 --> ErrorException: SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buk...')
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buk...')
+#3 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#4 C:\xampp\htdocs\pw13\app\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#5 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplik...', '979-731-075-2', '211', '102', '2004', 'R45')
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->restore()
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#8 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 03:39:34 --> SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku', 'C:\\xampp\\htdocs\\pw13\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 5 APPPATH\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 6 APPPATH\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB', '979-731-075-2', '211', '102', '2004', 'R45')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->restore()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 03:39:36 --> ErrorException: SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buk...')
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buk...')
+#3 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#4 C:\xampp\htdocs\pw13\app\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#5 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplik...', '979-731-075-2', '211', '102', '2004', 'R45')
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->restore()
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#8 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 03:39:36 --> SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku', 'C:\\xampp\\htdocs\\pw13\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 5 APPPATH\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 6 APPPATH\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB', '979-731-075-2', '211', '102', '2004', 'R45')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->restore()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 03:39:39 --> ErrorException: SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buk...')
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buk...')
+#3 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#4 C:\xampp\htdocs\pw13\app\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#5 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplik...', '979-731-075-2', '211', '102', '2004', 'R45')
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->restore()
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#8 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 03:39:39 --> SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku', 'C:\\xampp\\htdocs\\pw13\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 5 APPPATH\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 6 APPPATH\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB', '979-731-075-2', '211', '102', '2004', 'R45')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->restore()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 03:39:39 --> ErrorException: SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buk...')
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buk...')
+#3 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#4 C:\xampp\htdocs\pw13\app\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#5 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplik...', '979-731-075-2', '211', '102', '2004', 'R45')
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->restore()
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#8 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 03:39:39 --> SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): UNIQUE constraint failed: buku.Kode_Buku', 'C:\\xampp\\htdocs\\pw13\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 5 APPPATH\Models\Mdata.php(97): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'165311\',\'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB\',\'211\',\'102\',\'979-731-075-2\',\'2004\',\'R45\')')
+ 6 APPPATH\Controllers\Basis.php(367): App\Models\Mdata->TambahData('165311', 'Membangun Aplikasi Handphone dengan FBUS & Visual Basic VB', '979-731-075-2', '211', '102', '2004', 'R45')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->restore()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 03:55:18 --> unlink(restore/backupx.pwx): No such file or directory
+in APPPATH\Controllers\Basis.php on line 375.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(restore/backupx.pwx): No such file or directory', 'C:\\xampp\\htdocs\\pw13\\app\\Controllers\\Basis.php', 375)
+ 2 APPPATH\Controllers\Basis.php(375): unlink('restore/backupx.pwx')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->restore()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

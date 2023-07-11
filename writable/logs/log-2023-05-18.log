@@ -1,0 +1,195 @@
+ERROR - 2023-05-18 01:57:57 --> mysqli_sql_exception: Unknown column 'Kode' in 'where clause' in C:\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE buku SET...', 0)
+#1 C:\xampp\htdocs\pw9\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE buku SET...')
+#2 C:\xampp\htdocs\pw9\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE buku SET...')
+#3 C:\xampp\htdocs\pw9\app\Models\Mdata.php(108): CodeIgniter\Database\BaseConnection->query('UPDATE buku SET...')
+#4 C:\xampp\htdocs\pw9\app\Controllers\Basis.php(142): App\Models\Mdata->UpdateData('1212', '1212', '1212', '219', '101', '1212', '121')
+#5 C:\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->UpdateData()
+#6 C:\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-18 01:57:57 --> Unknown column 'Kode' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE buku SET Judul=\'1212\', ID_Pengarang=\'219\', ID_Penerbit=\'101\', ISBN =\'1212\',Tahun_Terbit=\'1212\', Rak=\'121\' WHERE Kode=\'1212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE buku SET Judul=\'1212\', ID_Pengarang=\'219\', ID_Penerbit=\'101\', ISBN =\'1212\',Tahun_Terbit=\'1212\', Rak=\'121\' WHERE Kode=\'1212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE buku SET Judul=\'1212\', ID_Pengarang=\'219\', ID_Penerbit=\'101\', ISBN =\'1212\',Tahun_Terbit=\'1212\', Rak=\'121\' WHERE Kode=\'1212\'')
+ 4 APPPATH\Models\Mdata.php(108): CodeIgniter\Database\BaseConnection->query('UPDATE buku SET Judul=\'1212\', ID_Pengarang=\'219\', ID_Penerbit=\'101\', ISBN =\'1212\',Tahun_Terbit=\'1212\', Rak=\'121\' WHERE Kode=\'1212\'')
+ 5 APPPATH\Controllers\Basis.php(142): App\Models\Mdata->UpdateData('1212', '1212', '1212', '219', '101', '1212', '121')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->UpdateData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 01:58:00 --> mysqli_sql_exception: Unknown column 'Kode' in 'where clause' in C:\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE buku SET...', 0)
+#1 C:\xampp\htdocs\pw9\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE buku SET...')
+#2 C:\xampp\htdocs\pw9\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE buku SET...')
+#3 C:\xampp\htdocs\pw9\app\Models\Mdata.php(108): CodeIgniter\Database\BaseConnection->query('UPDATE buku SET...')
+#4 C:\xampp\htdocs\pw9\app\Controllers\Basis.php(142): App\Models\Mdata->UpdateData('1212', '1212', '1212', '219', '101', '1212', '121')
+#5 C:\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->UpdateData()
+#6 C:\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-18 01:58:00 --> Unknown column 'Kode' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE buku SET Judul=\'1212\', ID_Pengarang=\'219\', ID_Penerbit=\'101\', ISBN =\'1212\',Tahun_Terbit=\'1212\', Rak=\'121\' WHERE Kode=\'1212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE buku SET Judul=\'1212\', ID_Pengarang=\'219\', ID_Penerbit=\'101\', ISBN =\'1212\',Tahun_Terbit=\'1212\', Rak=\'121\' WHERE Kode=\'1212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE buku SET Judul=\'1212\', ID_Pengarang=\'219\', ID_Penerbit=\'101\', ISBN =\'1212\',Tahun_Terbit=\'1212\', Rak=\'121\' WHERE Kode=\'1212\'')
+ 4 APPPATH\Models\Mdata.php(108): CodeIgniter\Database\BaseConnection->query('UPDATE buku SET Judul=\'1212\', ID_Pengarang=\'219\', ID_Penerbit=\'101\', ISBN =\'1212\',Tahun_Terbit=\'1212\', Rak=\'121\' WHERE Kode=\'1212\'')
+ 5 APPPATH\Controllers\Basis.php(142): App\Models\Mdata->UpdateData('1212', '1212', '1212', '219', '101', '1212', '121')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->UpdateData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 02:25:37 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 150.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 02:27:27 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 150.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 02:39:01 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 150.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 02:39:06 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 150.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:24:54 --> Undefined property: stdClass::$Tahun_terbit
+in APPPATH\Views\beranda.php on line 26.
+ 1 APPPATH\Views\beranda.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Tahun_terbit', 'C:\\xampp\\htdocs\\pw9\\app\\Views\\beranda.php', 26)
+ 2 APPPATH\Views\home.php(82): include('C:\\xampp\\htdocs\\pw9\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\pw9\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Basis.php(17): view('home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:26:00 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:26:01 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:26:05 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:26:08 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:26:21 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:26:21 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:26:22 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:26:22 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:26:41 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:28:26 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 03:28:28 --> Missing padding character
+in APPPATH\Controllers\Basis.php on line 172.
+ 1 APPPATH\Controllers\Basis.php(172): sprintf('SELECT Judul FROM buku WHERE Rak LIKE \'${nilai}%\'')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->RekapDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 04:11:47 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 150.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 04:29:09 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 151.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 04:42:40 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 151.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 04:43:14 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 151.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 05:08:05 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 151.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 05:11:47 --> Too few arguments to function App\Controllers\Basis::HapusData(), 0 passed in C:\xampp\htdocs\pw9\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Basis.php on line 151.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->HapusData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

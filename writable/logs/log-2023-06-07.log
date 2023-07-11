@@ -1,0 +1,32 @@
+CRITICAL - 2023-06-07 04:21:44 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Basis.php on line 254.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->cetakpdf1()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 04:29:30 --> Declaration of Psr\Log\AbstractLogger::emergency(Stringable|string $message, array $context = []): void must be compatible with Psr\Log\LoggerInterface::emergency($message, array $context = [])
+in FCPATH\writable\assets\vendor\psr\log\src\LoggerTrait.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-07 04:29:57 --> Declaration of Psr\Log\AbstractLogger::emergency(Stringable|string $message, array $context = []): void must be compatible with Psr\Log\LoggerInterface::emergency($message, array $context = [])
+in FCPATH\writable\assets\vendor\psr\log\src\LoggerTrait.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-07 04:31:39 --> Declaration of Psr\Log\NullLogger::log($level, Stringable|string $message, array $context = []): void must be compatible with Psr\Log\AbstractLogger::log($level, $message, array $context = []): void
+in FCPATH\writable\assets\vendor\psr\log\src\NullLogger.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-07 04:37:03 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\SimpleXLSXGen.php on line 697.
+ 1 APPPATH\Libraries\SimpleXLSXGen.php(697): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\pw12\\app\\Libraries\\SimpleXLSXGen.php', 697)
+ 2 APPPATH\Libraries\SimpleXLSXGen.php(376): App\Libraries\SimpleXLSXGen->_sheetToXML(0, '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+<dimension ref="{REF}"/>
+{SHEETVIEWS}
+{COLS}
+<sheetData>{ROWS}</sheetData>
+{AUTOFILTER}{MERGECELLS}{HYPERLINKS}
+</worksheet>')
+ 3 APPPATH\Libraries\SimpleXLSXGen.php(301): App\Libraries\SimpleXLSXGen->_write(resource (stream))
+ 4 APPPATH\Controllers\Basis.php(306): App\Libraries\SimpleXLSXGen->downloadAs('dinamis.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->cetakexcel2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

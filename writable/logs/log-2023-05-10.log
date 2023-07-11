@@ -1,0 +1,12 @@
+CRITICAL - 2023-05-10 11:29:20 --> Undefined variable $dtpengarang
+in APPPATH\Views\buku.php on line 69.
+ 1 APPPATH\Views\buku.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dtpengarang', 'C:\\xampp\\htdocs\\web2\\pw6\\app\\Views\\buku.php', 69)
+ 2 APPPATH\Views\home.php(84): include('C:\\xampp\\htdocs\\web2\\pw6\\app\\Views\\buku.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web2\\pw6\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Basis.php(15): view('home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->data()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

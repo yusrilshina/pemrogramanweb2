@@ -1,0 +1,92 @@
+ERROR - 2023-06-29 02:10:14 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(573): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\xampp\htdocs\pw13\app\Models\Mdata.php(33): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(28): App\Models\Mdata->getTotalBuku()
+#5 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->index()
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-29 02:10:14 --> Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 APPPATH\Models\Mdata.php(33): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS Jumlah FROM buku')
+ 4 APPPATH\Controllers\Basis.php(28): App\Models\Mdata->getTotalBuku()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-29 02:11:07 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(573): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\xampp\htdocs\pw13\app\Models\Mdata.php(33): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(28): App\Models\Mdata->getTotalBuku()
+#5 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->index()
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-29 02:11:07 --> Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 APPPATH\Models\Mdata.php(33): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS Jumlah FROM buku')
+ 4 APPPATH\Controllers\Basis.php(28): App\Models\Mdata->getTotalBuku()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-29 02:11:45 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(573): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\xampp\htdocs\pw13\app\Models\Mdata.php(33): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(28): App\Models\Mdata->getTotalBuku()
+#5 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->index()
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-29 02:11:45 --> Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 APPPATH\Models\Mdata.php(33): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS Jumlah FROM buku')
+ 4 APPPATH\Controllers\Basis.php(28): App\Models\Mdata->getTotalBuku()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-29 02:11:48 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\xampp\htdocs\pw13\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pw13\system\Database\BaseConnection.php(573): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\xampp\htdocs\pw13\app\Models\Mdata.php(33): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 C:\xampp\htdocs\pw13\app\Controllers\Basis.php(28): App\Models\Mdata->getTotalBuku()
+#5 C:\xampp\htdocs\pw13\system\CodeIgniter.php(934): App\Controllers\Basis->index()
+#6 C:\xampp\htdocs\pw13\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 C:\xampp\htdocs\pw13\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pw13\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-29 02:11:48 --> Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 APPPATH\Models\Mdata.php(33): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS Jumlah FROM buku')
+ 4 APPPATH\Controllers\Basis.php(28): App\Models\Mdata->getTotalBuku()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

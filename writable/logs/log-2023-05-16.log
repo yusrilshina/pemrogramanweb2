@@ -1,0 +1,160 @@
+ERROR - 2023-05-16 13:15:46 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buk...', 0)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(99): App\Models\Mdata->TambahData(NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-16 13:15:46 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 5 APPPATH\Controllers\Basis.php(99): App\Models\Mdata->TambahData(null, null, null, null, null, null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 13:15:47 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buk...', 0)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(99): App\Models\Mdata->TambahData(NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-16 13:15:47 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 5 APPPATH\Controllers\Basis.php(99): App\Models\Mdata->TambahData(null, null, null, null, null, null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 13:20:24 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buk...', 0)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(99): App\Models\Mdata->TambahData(NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-16 13:20:24 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 5 APPPATH\Controllers\Basis.php(99): App\Models\Mdata->TambahData(null, null, null, null, null, null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 13:20:27 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buk...', 0)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(99): App\Models\Mdata->TambahData(NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-16 13:20:27 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 5 APPPATH\Controllers\Basis.php(99): App\Models\Mdata->TambahData(null, null, null, null, null, null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 13:53:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'tokobuku', 3306, '', 0)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(32): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(13): App\Models\Mdata->getTotalBuku()
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->index()
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(32): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#3 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(13): App\Models\Mdata->getTotalBuku()
+#4 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->index()
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-16 13:53:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mdata.php(32): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS Jumlah FROM buku')
+ 3 APPPATH\Controllers\Basis.php(13): App\Models\Mdata->getTotalBuku()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 13:55:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'tokobuku', 3306, '', 0)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(32): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(13): App\Models\Mdata->getTotalBuku()
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->index()
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(32): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#3 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(13): App\Models\Mdata->getTotalBuku()
+#4 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->index()
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-16 13:55:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mdata.php(32): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS Jumlah FROM buku')
+ 3 APPPATH\Controllers\Basis.php(13): App\Models\Mdata->getTotalBuku()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,46 @@
+ERROR - 2023-05-15 04:20:33 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buk...', 0)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(99): App\Models\Mdata->TambahData(NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 04:20:33 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 5 APPPATH\Controllers\Basis.php(99): App\Models\Mdata->TambahData(null, null, null, null, null, null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-15 04:24:33 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\apl\xampp\htdocs\pw9\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buk...', 0)
+#1 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buk...')
+#2 D:\apl\xampp\htdocs\pw9\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buk...')
+#3 D:\apl\xampp\htdocs\pw9\app\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buk...')
+#4 D:\apl\xampp\htdocs\pw9\app\Controllers\Basis.php(99): App\Models\Mdata->TambahData(NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+#6 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+#7 D:\apl\xampp\htdocs\pw9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\apl\xampp\htdocs\pw9\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 04:24:33 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Models\Mdata.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO buku VALUES(\'\',\'\',\'\',\'\',\'\',\'\',\'\')')
+ 5 APPPATH\Controllers\Basis.php(99): App\Models\Mdata->TambahData(null, null, null, null, null, null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Basis->TambahData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basis))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
